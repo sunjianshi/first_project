@@ -1,0 +1,19 @@
+2019-03-12 11:17:08,640 - INFO - test
+2019-03-12 11:17:08,642 - INFO - 50.0
+2019-03-12 11:17:08,643 - INFO - main
+2019-03-12 11:17:08,644 - INFO - get_page_index
+2019-03-12 11:17:09,922 - INFO - parse_page_html
+2019-03-12 11:17:09,923 - INFO - <generator object parse_page_html at 0x0000025D4EF4FD58>
+2019-03-12 11:19:28,035 - INFO - test
+2019-03-12 11:19:28,035 - INFO - 50.0
+2019-03-12 11:19:28,036 - INFO - main
+2019-03-12 11:19:28,036 - INFO - get_page_index
+2019-03-12 11:19:29,231 - INFO - parse_page_html
+2019-03-12 11:19:29,231 - INFO - <generator object parse_page_html at 0x0000022D528EFCA8>
+2019-03-12 11:19:29,231 - ERROR - Traceback (most recent call last):
+  File "C:\Users\admin\Desktop\pachong\log_decorator.py", line 23, in tmp
+    result = func(*args, **kwargs)
+  File "C:/Users/admin/Desktop/pachong/jiepai.py", line 56, in main
+    for url in parse_page_html(html):
+TypeError: 'NoneType' object is not iterable
+
